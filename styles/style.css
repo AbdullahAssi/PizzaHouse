@@ -142,7 +142,7 @@ button:active {
 .about{
   margin-top: 10%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
 }
 .about-txt>h1{
@@ -391,6 +391,9 @@ button:active {
   }
   .about{
     row-gap: 3rem;
+  }
+  .about-img{
+    margin-left: 4%;
   }
 }
 
